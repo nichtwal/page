@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width:1920px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+header a {
+    padding: 27px 0 0 33px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.first_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:180px 148px 0 148px;
+}
+
+.text_info {
+    max-width: 506px;
+}
+
+.text_info h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.text_info p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-top: 40px;
+}
+
+.text_info button {
+    padding: 9px 21px 17px 20px;
+    margin-top:38px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #FF6464;
+    border-radius: 2px;
+}
+
+img {
+    border-radius:50%;
+    width:243px;
+    height:243px;
+}
+
+.second_section {
+    background: #EDF7FA;
+    margin-top:71px;
+}
+
+.second_section_wrapper {
+    padding:0 148px 0 148px;
+}
+
+.section_head {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_head span {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.section_head a {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+}
+
+.recent_posts {
+    display:flex;
+    justify-content: space-between;
+}
+
+.recent_posts div {
+    width: 418px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.post1 {
+    padding-right:20px;
+}
+.recent_posts h1 {
+    padding: 24px 21px 0 23px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+
+.post1 div {
+    display: inline;
+    justify-content: space-between;
+
+}
+
+.vl {
+    height: 12px;
+    border: 1px solid #000;
+}
