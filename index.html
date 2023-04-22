@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="">Wokrs</a>
-        <a href="">Blog</a>
-        <a href="">Contact</a>
+        <nav>
+            <ul class="nav_list">
+                <li>
+                    <a href="">Wokrs</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="first_section">
@@ -23,7 +34,9 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat minima pariatur accusantium animi. Illo molestias vitae asperiores.</p>
                 <button>Donwload Resume</button>
             </div>
-            <img src="./Новая папка/layers/myphoto.JPG" alt="beautiful face">
+            <div>
+                <img src="./assets/layers/myphoto.JPG" alt="">
+            </div>
         </section>
         <section class="second_section">
             <div class="second_section_wrapper">
@@ -32,8 +45,8 @@
                     <a href="">View all</a>
                 </div>
                 <div class="recent_posts">
-                    <div class="post1">
-                        <h1>Making a desicg system for search</h1>
+                    <div class="left_post">
+                        <span class="post_tag">Making a desicg system from search</span>
                         <div>
                             <span>12 Feb 2022</span>
                             <hr class="vl">
@@ -41,11 +54,11 @@
                         </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat minima pariatur accusantium animi. Illo molestias vitae asperiores.</p>
                     </div>
-                    <div class="post2">
-                        <h1>Creating pixel perfect icons if Figma</h1>
+                    <div class="right_post">
+                        <span class="post_tag">Creating pixel perfect icons in Figma</span>
                         <div>
                             <span>12 Feb 2022</span>
-                            <div class="vl"></div>
+                            <hr class="vl">
                             <span>Figma, icons design</span>
                         </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat minima pariatur accusantium animi. Illo molestias vitae asperiores.</p>
@@ -53,6 +66,63 @@
                 </div>
             </div>
         </section>
+        <section class="third_section">
+            <span class="section_name">Featured works</span>
+            <div class="work_list">
+                <div>
+                    <img src="./assets/layers/picture1.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <span class="name_of_work"><a href="">Designing dashboard</a></span>
+                    <div>
+                        <div class="year"><span>2020</span></div>
+                        <span class="type_of_work">Dashboard</span>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat minima pariatur accusantium animi. Illo molestias vitae asperiores.</p>
+                    </div>
+                </div>
+                <hr class="separator">
+            </div>
+            <div class="work_list">
+                <div>
+                    <img src="./assets/layers/picture2.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <span class="name_of_work"><a href="">Portraits of 2020</a></span>
+                    <div>
+                        <div class="year"><span>2018</span></div>
+                        <span class="type_of_work">Illustration</span>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat minima pariatur accusantium animi. Illo molestias vitae asperiores.</p>
+                    </div>
+                </div>
+                <hr class="separator">
+            </div>
+            <div class="work_list">
+                <div>
+                    <img src="./assets/layers/picture3.jpg" alt="">
+                </div>
+                <div class="discription">
+                    <span class="name_of_work"><a href=""> Days of Malayalam type</a></span>
+                    <div>
+                        <div class="year"><span>2018</span></div>
+                        <span class="type_of_work">Typography</span>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat minima pariatur accusantium animi. Illo molestias vitae asperiores.</p>
+                    </div>
+                </div>
+                <hr class="separator">
+            </div>
+        </section>
+        <footer>
+            <div class="social">
+                <a href=""><img src="./assets/icons/fb.png" alt=""></a>
+                <a href=""><img src="./assets/icons/insta.png" alt=""></a>
+                <a href=""><img src="./assets/icons/Linkedin.png" alt=""></a>
+                <a href=""><img src="./assets/icons/Vector.png" alt=""></a>
+            </div>
+            <span>Copyright ©2020 All rights reserved</span>
+        </footer>
     </main>
 </body>
 </html>

@@ -9,6 +9,15 @@ header {
     padding: 0;
 }
 
+.nav_list {
+    list-style: none;
+    display: flex;
+}
+
+hr {
+    margin:0 20px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
@@ -77,7 +86,7 @@ header a {
     border-radius: 2px;
 }
 
-img {
+.first_section img {
     border-radius:50%;
     width:243px;
     height:243px;
@@ -120,20 +129,22 @@ img {
 .recent_posts {
     display:flex;
     justify-content: space-between;
+    padding-bottom: 32px;
 }
 
 .recent_posts div {
-    width: 418px;
+    max-width: 418px;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
     border-radius: 4px;
 }
 
-.post1 {
-    padding-right:20px;
-}
-.recent_posts h1 {
+.left_post {
+    height:245px;
     padding: 24px 21px 0 23px;
+    margin-right:23px;
+}
+.post_tag {
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 700;
@@ -142,13 +153,156 @@ img {
     color: #21243D;
 }
 
-.post1 div {
-    display: inline;
-    justify-content: space-between;
-
+.left_post div {
+    padding-right:100px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding:17px 0 11px 0;
 }
 
 .vl {
-    height: 12px;
-    border: 1px solid #000;
+    width:1px;
+    height:12px;
+    background: #000;
+}
+
+.left_post p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.right_post {
+    height:245px;
+    padding: 24px 21px 0 23px;
+    margin-right:23px;
+}
+
+.right_post div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding:17px 0 11px 0;
+}
+
+.right_post p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.third_section {
+    padding:17px 148px 0 148px;
+}
+
+.section_name {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.work_list{
+    display: flex;
+}
+
+.discription {
+    padding-left:18px;
+}
+
+.discription div {
+    display: flex;
+    align-items: center;
+    padding: 17px 0 16px 0;
+}
+
+.year {
+    max-height: 0px;
+    width: 62px;
+    margin-right:26px;
+    background: #142850;
+    border-radius: 16px;
+}
+
+.year span{
+    padding:0 10px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.name_of_work {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.name_of_work a {
+    text-decoration: none;
+    color: #21243D;
+}
+
+.type_of_work {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.separator {
+    margin: 15px 0 30px 0 ;
+    background-color: #E0E0E0;
+}
+
+footer {
+    margin-top:83px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a {
+    padding-left: 35px;
+}
+footer span {
+    display: flex;
+    justify-content: center;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+    margin:26px 0 54px 40px;
 }
