@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 p {
     margin: 0;
 }
@@ -235,6 +239,14 @@ header a {
     padding-left:18px;
 }
 
+.img::after {
+    content: "";
+    background-color: #E0E0E0;
+    height: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
 .discription div {
     display: flex;
     align-items: center;
@@ -292,8 +304,11 @@ footer {
 
 .social {
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+.social ul {
+    display: flex;
 }
 .social a {
     padding-left: 35px;
@@ -308,5 +323,5 @@ footer span {
     line-height: 21px;
     text-align: center;
     color: #21243D;
-    margin:26px 0 54px 40px;
+    margin:0 0 0 75px ;
 }
