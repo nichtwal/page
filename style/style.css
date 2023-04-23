@@ -32,6 +32,10 @@ header{
     margin-right: 60px;
 }
 
+.small_menu {
+    display:none;
+}
+
 header a {
     padding: 27px 0 0 33px;
     text-decoration: none;
