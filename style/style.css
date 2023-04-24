@@ -24,6 +24,8 @@ h1, h2, h3, h4, h5, h6 {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 p {
@@ -33,7 +35,7 @@ p {
 header{
     display: flex;
     justify-content: flex-end;
-    margin-right: 60px;
+    margin:27px 60px 0 0;
 }
 
 .small_menu {
@@ -41,7 +43,7 @@ header{
 }
 
 header a {
-    padding: 27px 0 0 33px;
+    padding: 0 0 0 33px;
     text-decoration: none;
     color: #000;
     font-family: 'Heebo';
@@ -82,7 +84,9 @@ header a {
 }
 
 .text_info button {
-    padding: 9px 21px 17px 20px;
+    display: flex;
+    justify-content: center;
+    padding: 9px 21px;
     margin-top:38px;
     font-family: 'Heebo';
     font-style: normal;
@@ -193,7 +197,6 @@ header a {
 .right_post {
     height:245px;
     padding: 24px 21px 0 23px;
-    margin-right:23px;
 }
 
 .right_post div {
@@ -233,16 +236,22 @@ header a {
 
 .work_list{
     display: flex;
+    position: relative;
+    margin-bottom: 35px;
 }
 
 .discription {
     padding-left:18px;
 }
 
-.img::after {
+.work_list::after {
+    position:absolute;
     content: "";
     background-color: #E0E0E0;
     height: 1px;
+    bottom:-13px;
+    left:2px;
+    width:1200px;
     display: flex;
     flex-direction: column;
 }
@@ -254,6 +263,7 @@ header a {
 }
 
 .year {
+    justify-content: center;
     max-height: 0px;
     width: 62px;
     margin-right:26px;
@@ -261,8 +271,7 @@ header a {
     border-radius: 16px;
 }
 
-.year span{
-    padding:0 10px;
+.year{
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 900;
@@ -293,11 +302,6 @@ header a {
     color: #8695A4;
 }
 
-.separator {
-    margin: 15px 0 30px 0 ;
-    background-color: #E0E0E0;
-}
-
 footer {
     margin-top:83px;
 }
@@ -310,8 +314,8 @@ footer {
 .social ul {
     display: flex;
 }
-.social a {
-    padding-left: 35px;
+.social li{
+    margin-right: 35px;
 }
 footer span {
     display: flex;
@@ -323,5 +327,5 @@ footer span {
     line-height: 21px;
     text-align: center;
     color: #21243D;
-    margin:0 0 0 75px ;
+    margin: 25px 0 20px -30px;
 }
